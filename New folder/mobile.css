@@ -1,0 +1,163 @@
+.renderboard {
+    position: absolute;
+    font-size: 20px;
+    right: 100px;
+    top: 0px;
+  
+  }
+
+  #playerScore {
+    position: relative;
+    top: 0px;
+    height: 15px;
+    left: 20px;
+  
+  }
+  
+  #playerName {
+    position:relative;
+    left:20px;
+    
+    top:2px;
+    height: 15px;
+    
+  }
+  .button {
+    background-color: rgba(4, 139, 4, 0.929);
+    width: 90px;
+    height: 40px;
+    padding: 0px;
+    position: relative;
+    top: 5px;
+    left: 120px;
+    border: 2px solid black;
+    border-radius: 4px;
+  
+  }
+  
+  .button:hover {
+    color: lightgreen;
+    cursor: pointer;
+  }
+
+
+  .score {
+    background: yellow;
+    padding: 2px 2px;
+    position: relative;
+    top: 15px;
+    font-size: 20px;
+    
+    border-radius: 8px;
+  }
+  
+  #scoreForm {
+    position: absolute;
+    right: 100px;
+    top: 30px;
+  
+  }
+  
+
+  #controls{
+
+    position: absolute;
+    bottom: 100px;
+  }
+  
+  #up-button {
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color: blueviolet;
+    position:absolute;
+    top:25px;
+    right:90px;
+    
+    width: 50px;
+    height: 40px;
+  
+  }
+  
+  #up-button:hover {
+  
+    background-color: rgb(174, 103, 241);
+    cursor: pointer;
+  
+  
+  }
+  
+  #left-button {
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color: blueviolet;
+    position: relative;
+    top:70px;
+  
+    width: 50px;
+    height: 40px;
+  
+  }
+  
+  #left-button:hover {
+  
+    background-color: rgb(174, 103, 241);
+    cursor: pointer;
+  }
+  
+  #down-button {
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color: blueviolet;
+    position: relative;
+    top:70px;
+  
+  
+    width: 50px;
+    height: 40px;
+  
+  }
+  
+  #down-button:hover {
+  
+    background-color: rgb(174, 103, 241);
+    cursor: pointer;
+  }
+  
+  #right-button {
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color: blueviolet;
+    position: relative;
+    top:70px;
+  
+    width: 50px;
+    height: 40px;
+  
+  }
+  
+  #right-button:hover {
+  
+    background-color: rgb(174, 103, 241);
+    cursor: pointer;
+  }
+  
+  
+#timer{
+  position:absolute;
+  top: 230px;
+  left: 200px;
+  font-size: 25px;
+
+
+
+}
+#lives{
+  position: absolute;
+  top: 125px;
+  left:350px;
+  font-size: 20px;
+  border: 2px solid black;
+  background-color:red;
+  border-radius: 10px;
+  padding:2px 2px;
+}

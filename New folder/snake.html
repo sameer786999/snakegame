@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake Safari</title>
+  <link rel="stylesheet" type="text/css" href="snake.css">
+
+  <link rel="stylesheet" media="screen and (max-width:4000px)" href="mobile.css">
+
+</head>
+
+
+
+
+<body>
+  <div class="container">
+    <h2 class="score"> Score : <span id="score">0</span></h2>
+    <div class="game-board"></div>
+
+  </div>
+
+
+
+
+  <h1 class="renderboard">Leaderboard</h1>
+  <div class="leaderboardcontainer">
+
+  </div>
+  <ol id="leaderboard"></ol>
+  <form id="scoreForm">
+    <label for="playerName">Player Name: </label>
+    <input type="text" id="playerName" required>
+    <br>
+    <label for="playerScore">Player Score: </label>
+    <input type="number" id="playerScore" required>
+    <br>
+    <button type="submit" class="button">Add Score</button>
+  </form>
+
+
+
+  <div class="leaderboardEntry">
+
+  </div>
+
+
+
+  <div id="controls">
+    <button id="right-button">Right</button>
+    <button id="down-button">Down</button>
+    <button id="left-button">Left</button>
+    <button id="up-button">Up</button>
+  </div>
+
+  <div id="timer">Time remaining:00:00</div>
+  <div id="lives">Lives: <span id="livesCount">3</span></div>
+  <audio id="audio" src="food.mp3"></audio>
+
+
+
+
+
+  <script src="snake.js">
+
+
+
+
+
+  </script>
+</body>
+
+</html>
